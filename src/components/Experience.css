@@ -16,7 +16,7 @@
 .xp {
   max-width: 800px;
   width: 100%;
-  height: 750px;
+  height: 850px;
   text-align: center;
 }
 
@@ -31,8 +31,8 @@
 
 .tech-col,
 .env-col {
-  flex: 48%;
-  max-width: 50%;
+  flex: 100%;
+  max-width: 100%;
   text-align: start;
 }
 

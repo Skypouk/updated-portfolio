@@ -15,7 +15,7 @@ const Skills = () => {
   return (
     <section id="skills" className="skills-section">
       <p className="skills-text">
-        Throughout both my personal projects and my professional experiences, i
+        Throughout both my personal projects and my professional experiences, I
         had the opportunity to learn, manipulate and master the following
         languages, tools and technologies.
       </p>

@@ -7,8 +7,8 @@ const Home = () => {
   return (
     <section id="home" className="home-section">
       <h1>Achraf Bentaher</h1>
-      <p>Python Programmer & Backend Developer.</p>
-      <p> Python developper of automation API's at Société Générale.</p>
+      <p>Python programmer & developer.</p>
+      <p> Python developer working automation API's at Société Générale.</p>
       <ul className="socials-list">
         <li>
           <a

@@ -1,0 +1,69 @@
+.xpsection {
+  display: flex;
+  flex-direction: column;
+  max-width: 120rem;
+  margin: auto;
+  color: black;
+}
+
+.xpcontainer {
+  background-color: var(--sec-background-color);
+  border-radius: 1rem;
+  border: solid var(--main-color);
+  padding: 2rem;
+  margin: 2rem;
+}
+
+.xpcontainer cite {
+  font-size: 22px;
+  color: var(--title-color);
+}
+
+.xpcontainer__title {
+  color: var(--title-color);
+}
+.xpcontainer__description__title {
+  color: var(--text-color);
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+}
+
+.xpcontainer__description__values p {
+  font-size: 22px;
+}
+
+.xpcontainer__description__values .main_p::before {
+  content: "";
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  background-image: url("assets/task.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding-right: 1rem;
+  vertical-align: center;
+}
+
+.xpcontainer__description__values .tech_p::before {
+  content: "";
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  background-image: url("assets/tech.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding-right: 1rem;
+  vertical-align: center;
+}
+
+.xpcontainer__description__values .env_p::before {
+  content: "";
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  background-image: url("assets/env.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding-right: 1rem;
+  vertical-align: center;
+}

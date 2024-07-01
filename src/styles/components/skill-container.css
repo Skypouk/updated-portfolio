@@ -1,0 +1,28 @@
+.skillsection {
+  max-width: 120rem;
+  margin: auto;
+}
+
+.skillcontainer {
+  flex: grid;
+  justify-content: center;
+  text-align: center;
+  border-radius: 1rem;
+  border: solid var(--main-color);
+  margin: 2rem;
+  background-color: var(--sec-background-color);
+}
+
+.skillcontainer__title {
+  color: var(--title-color);
+}
+
+.skillcontainer__text {
+  font-size: 20px;
+  padding: 2rem;
+  color: black;
+}
+
+.skillcontainer__skillset {
+  padding-bottom: 4rem;
+}

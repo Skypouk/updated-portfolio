@@ -1,0 +1,123 @@
+.skill-page {
+  display: flex;
+  justify-content: center;
+
+  width: 100%;
+}
+
+.skill-banner {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 3.2rem;
+  width: 100%;
+  justify-content: space-evenly;
+  max-width: 120rem;
+  padding: 3.2rem 0;
+}
+
+.card-text-pic {
+  width: 32rem;
+  height: 48rem;
+  border-radius: 1rem;
+  overflow: hidden;
+  cursor: pointer;
+  position: relative;
+  box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);
+}
+
+.card-text-pic__image {
+  position: absolute;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  opacity: 1;
+  transition: opacity 0.2s ease-out;
+}
+
+.card-text-pic-content__title {
+  position: absolute;
+  bottom: 30px; /* Changed from inset to bottom */
+  left: 30px; /* Position from the left */
+  margin: 0;
+  transition: bottom 0.3s 0.3s ease-out; /* Transition property */
+  font-family: var(--font-title);
+  font-weight: bold;
+}
+.card-text-pic-content__text,
+.card-text-pic-content__link {
+  position: absolute;
+  opacity: 0;
+  max-width: 80%;
+  transition: opacity 0.3s ease-out;
+}
+.card-text-pic-content__text {
+  inset: 145px auto auto 30px;
+  font-size: 20px;
+}
+.card-text-pic-content__link {
+  inset: auto auto 10px 30px;
+  color: inherit;
+  text-decoration: underline;
+  bottom: 10%;
+  font-size: 18px;
+}
+
+.card-text-pic:hover .card-text-pic-content__title {
+  bottom: 75%;
+  transition: bottom 0.3s ease-out;
+}
+.card-text-pic:hover .card-text-pic-content__text,
+.card-text-pic:hover .card-text-pic-content__link {
+  opacity: 1;
+  transition: opacity 0.5s 0.1s ease-in;
+}
+.card-text-pic:hover .card-text-pic__image {
+  transition: opacity 0.3s ease-in;
+  opacity: 1;
+  filter: blur(10px);
+}
+
+@media only screen and (max-width: 960px) {
+  .skill-banner {
+    grid-template-columns: auto auto;
+  }
+
+  .card-text-pic:hover .card-text-pic-content__title {
+    bottom: 30px; /* Keep initial position */
+    transition: none; /* Disable transition */
+  }
+
+  .card-text-pic:hover .card-text-pic-content__text,
+  .card-text-pic:hover .card-text-pic-content__link {
+    opacity: 0; /* Keep initial opacity */
+    transition: none; /* Disable transition */
+  }
+
+  .card-text-pic:hover .card-text-pic__image {
+    filter: blur(0px);
+    transition: none; /* Disable transition */
+  }
+
+  .card-text-pic.active .card-text-pic-content__title {
+    bottom: 75%; /* Move to the top */
+    transition: bottom 0.3s; /* Transition property */
+  }
+  .card-text-pic.active .card-text-pic-content__text,
+  .card-text-pic.active .card-text-pic-content__link {
+    opacity: 1;
+    transition: opacity 0.5s 0.1s ease-in;
+  }
+  .card-text-pic.active .card-text-pic__image {
+    transition: opacity 0.3s ease-in;
+    opacity: 1;
+    filter: blur(10px);
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .skill-banner {
+    grid-template-columns: auto;
+  }
+}

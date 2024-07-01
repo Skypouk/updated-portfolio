@@ -1,16 +1,17 @@
-import Home from "./components/Home";
-import NavBar from "./components/NavBar";
-import Skills from "./components/Skills";
-import Experience from "./components/Experience";
-import "./styles/main.css";
+import { Route, Routes } from "react-router-dom";
+import { HomePage } from "./pages/home-page";
+import { NotFoundPage } from "./pages/not-found-page";
+import { SkillPage } from "pages/skill-page";
+import { XpPage } from "pages/xp-page";
+
 function App() {
   return (
-    <div className="App">
-      <NavBar />
-      <Home />
-      <Experience />
-      <Skills />
-    </div>
+    <Routes>
+      <Route path="/" element={<HomePage />} />
+      <Route path="/skills" element={<SkillPage />} />
+      <Route path="/xps" element={<XpPage />} />
+      <Route path="*" element={<NotFoundPage />} />
+    </Routes>
   );
 }
 

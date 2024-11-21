@@ -6,8 +6,7 @@
   width: 100%;
 
   z-index: 300;
-  background-color: var(--main-color);
-
+  background: rgba(0, 0, 0, 0.5);
   color: var(--text-color);
 }
 
@@ -92,6 +91,7 @@
 
 .nav-bar__tab:hover {
   color: var(--hover-color);
+  text-decoration-color: var(--hover-color);
 }
 
 .nav-bar__icon {

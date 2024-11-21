@@ -3,12 +3,12 @@
 /* Theme */
 
 :root {
-  --main-color: #00203e;
-  --text-color: #ffde2e;
+  --main-color: #014491;
+  --text-color: white;
   /*--hover-color: #df265e;*/
-  --hover-color: #00ab8a;
-  --sec-background-color: #00ab8a;
-  --title-color: #00203e;
+  --hover-color: #f49162;
+  --sec-background-color: #014491;
+  --title-color: #f49162 ;
 
   --font-primary: "Inter", sans-serif;
   --font-secondary: "Genty Demo", sans-serif;

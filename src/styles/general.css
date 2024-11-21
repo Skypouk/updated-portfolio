@@ -19,13 +19,9 @@ body {
 }
 
 body {
-  background: repeating-linear-gradient(
-    to right,
-    white,
-    white 20px,
-    royalblue 20px,
-    royalblue 40px
-  );
+  background-image: url('../../src/assets/background.png');
+
+  background-attachment: fixed;  /* Makes the background stay fixed when scrolling */
 
   color: var(--text-color);
   font-family: var(--font-primary);

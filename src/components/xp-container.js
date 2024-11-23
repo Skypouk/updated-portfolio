@@ -23,7 +23,7 @@ export const XpContainer = () => {
           Anonymizing personal data within thousands of user emails using
           Google's Transformer and BERT models
         </h1>
-        <cite>Crédit Agricole bank</cite>
+        <cite>Crédit Agricole Bank</cite>
         <div className="xpcontainer__description">
           <h1 className="xpcontainer__description__title">Main tasks:</h1>
           <div className="xpcontainer__description__values">
@@ -53,13 +53,13 @@ export const XpContainer = () => {
         <h1 className="xpcontainer__title">
           Automating banking network workflows using Python APIs
         </h1>
-        <cite>Société Générale bank</cite>
+        <cite>Société Générale Bank</cite>
 
         <div id="xp2" className="xpcontainer__description">
           <h1 className="xpcontainer__description__title">Main tasks:</h1>
           <div className="xpcontainer__description__values">
             <p className="main_p">Analysis of client needs</p>
-            <p className="main_p">Development & maintenance of python Apis </p>
+            <p className="main_p">Development & maintenance of Python Apis </p>
             <p className="main_p">Development of React js front</p>
             <p className="main_p">
               Continuous integration and continuous delivery/deployment
@@ -70,7 +70,7 @@ export const XpContainer = () => {
         <div className="xpcontainer__description">
           <h1 className="xpcontainer__description__title">Technologies :</h1>
           <div className="xpcontainer__description__values">
-            <p className="tech_p">python (Flask, SQLAlchemy, etc)</p>
+            <p className="tech_p">Python (Flask, SQLAlchemy, etc)</p>
             <p className="tech_p">React, CSS, Html</p>
             <p className="tech_p">Postgresql database</p>
             <p className="tech_p">Jenkins</p>

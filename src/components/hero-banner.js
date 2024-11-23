@@ -9,7 +9,7 @@ export const HeroBanner = () => {
         <h1 className="hero-banner__header">Achraf Bentaher</h1>
         <h3 className="hero-banner__title">Python & Web developer</h3>
         <p className="hero-banner__description">
-          Python developer working on automation API's at Société Générale bank
+          Python developer working on automation API's at Société Générale Bank
         </p>
         <ul className="hero-banner__socials-list">
           <li>

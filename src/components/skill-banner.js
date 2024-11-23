@@ -30,7 +30,7 @@ export const SkillBanner = () => {
           />
           <div className="card-text-pic-content">
             <h2 className="card-text-pic-content__title">
-              Data scientist at Crédit Agricole bank
+              Data scientist at Crédit Agricole Bank
             </h2>
             <p className="card-text-pic-content__text">
               Anonymizing personal data within thousands of user emails using
@@ -53,7 +53,7 @@ export const SkillBanner = () => {
           />
           <div className="card-text-pic-content">
             <h2 className="card-text-pic-content__title">
-              Python & Backend developer at Société Générale bank
+              Python & Backend developer at Société Générale Bank
             </h2>
             <p className="card-text-pic-content__text">
               Automating banking network workflows using Python APIs.

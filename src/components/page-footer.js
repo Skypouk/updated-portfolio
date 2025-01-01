@@ -14,7 +14,7 @@ export const PageFooter = () => {
                 Issy les moulineaux, 92130
               </PageFooterHyperlink>
               <PageFooterHyperlink>
-                bentaheraachraf@gmail.com
+                achraf.bentaher.ing@gmail.com
               </PageFooterHyperlink>
               <PageFooterHyperlink
                 path={"https://www.linkedin.com/in/abentaher/"}
